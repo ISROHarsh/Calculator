@@ -42,8 +42,8 @@ while True:
                 print("[\x1b[32m>\x1b[0m] Result:", num_one - num_two)
 
             elif choice == 3:
-                num_one = input("[\x1b[33m>\x1b[0m] Enter first number: ")
-                num_two = input("[\x1b[33m>\x1b[0m] Enter second number: ")
+                num_one = int(input("[\x1b[33m>\x1b[0m] Enter first number: "))
+                num_two = int(input("[\x1b[33m>\x1b[0m] Enter second number: "))
                 print("[\x1b[32m>\x1b[0m] Result:", num_one * num_two)
 
             elif choice == 4:
